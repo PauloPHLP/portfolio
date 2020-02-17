@@ -1,5 +1,5 @@
 # Paulo Lima | Portfolio
-![ReactJS Resume Website](./src/assets/images/readme.png?raw=true "ReactJS Resume Website")
+![ReactJS Resume Website](./static/media/readme.png?raw=true "ReactJS Resume Website")
 ### <a href="http://timbakerdev.com/">Check it out here</a> 
 
 ## Description
