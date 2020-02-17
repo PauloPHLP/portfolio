@@ -1,0 +1,76 @@
+#nav-wrap ul,
+#nav-wrap li,
+#nav-wrap a {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  margin-bottom: -5px;
+}
+
+#nav-wrap {
+  font: 12px 'opensans-bold', sans-serif;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  margin: 0 auto;
+  z-index: 100;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+#nav-wrap>a.mobile-btn {
+  display: none;
+  background-color: #74FBFE;
+}
+
+.navbar-link {
+  color: #FFFFFF;
+}
+
+ul#nav li a:hover {
+  cursor: pointer;
+  color: #74FBFE;
+}
+
+ul#nav li .navbar-link.smoothscroll.current.active {
+  color: #74FBFE;
+}
+
+.active-section:visited {
+  color:#74FBFE;
+}
+
+a:hover, a:focus {
+  color: #FFFFFF;
+}
+
+.active-section {
+  color: #74FBFE;
+} 
+
+.disabled-section {
+  color: #FFFFFF;
+}
+
+.flag, .flag-activated {
+  height: 25px;
+  margin-bottom: -.8rem;
+  margin-right: 1rem;
+}
+
+.flag-activated {
+  height: 30px;
+  margin-bottom: -1rem;
+}
+
+.flag-activated:hover {
+  cursor: pointer;
+}
+
+.flag:hover {
+  cursor: pointer;
+  height: 30px;
+  margin-bottom: -1rem;
+}
