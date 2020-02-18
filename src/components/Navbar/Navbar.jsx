@@ -116,9 +116,9 @@ function Navbar() {
           <li>
             <a id="anchor-his-resume" className="disabled-section"  href="#his-resume">{t("navbar_resume")}</a>
           </li>
-          {/* <li>
+          <li>
             <a id="anchor-his-works" className="disabled-section"  href="#his-works">{t("navbar_work")}</a>
-          </li> */}
+          </li>
           {/* <li>
             <a id="anchor-his-testimonials" className="disabled-section"  href="#his-testimonials">{t("navbar_testimonials")}</a>
           </li>*/}
