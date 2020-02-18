@@ -32,7 +32,7 @@ function Portfolio() {
               </div>
               <div className="columns portfolio-item">
                 <div className="item-wrap">
-                  <a href="https://www.linkedin.com/in/paulo-lima-1218a9149/" title="ARR 2B Orchestration Service" target="_blank">
+                  <a href="https://www.linkedin.com/in/paulo-lima-1218a9149/" title="Facial Recognition" target="_blank">
                     <img alt="ARR 2B Orchestration Service" src={facial_recognition} className="portfolio-img"/>
                     <div className="overlay">
                       <div className="portfolio-item-meta">
@@ -45,7 +45,7 @@ function Portfolio() {
               </div>
               <div className="columns portfolio-item">
                 <div className="item-wrap">
-                  <a href="https://www.linkedin.com/in/paulo-lima-1218a9149/" title="ARR 2B Orchestration Service" target="_blank">
+                  <a href="https://www.linkedin.com/in/paulo-lima-1218a9149/" title="Welcome Screen" target="_blank">
                     <img alt="ARR 2B Orchestration Service" src={welcome_screen_cinq} className="portfolio-img"/>
                     <div className="overlay">
                       <div className="portfolio-item-meta">
@@ -58,7 +58,7 @@ function Portfolio() {
               </div>
               <div className="columns portfolio-item">
                 <div className="item-wrap">
-                  <a href="https://corvalent.com/connected-assets-technologies-and-application-performance-management-cat-apm-iot-solutions/" title="ARR 2B Orchestration Service" target="_blank">
+                  <a href="https://corvalent.com/connected-assets-technologies-and-application-performance-management-cat-apm-iot-solutions/" title="IoT Energy & Oil" target="_blank">
                     <img alt="ARR 2B Orchestration Service" src={IoT} className="portfolio-img"/>
                     <div className="overlay">
                       <div className="portfolio-item-meta">
