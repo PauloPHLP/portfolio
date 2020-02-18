@@ -50,5 +50,7 @@
    "resume_reactjs": "Developed by Facebook and the community, ReactJS is my favorite JavaScript library. It is powerful and very simple to use. It is the technology that I currently work with and it is very well requested on the job market.",
    "resume_vuejs": "A modern JavaScript based framework. It gives you an easy way to create user interfaces and single-page applications. I only had one opportunity to work with Vue JS but it exceeded my expectations.",
    "resume_csharp": "The first programming language that I had contact and really worked with. A lot of cool stuff can be done with it and the most used IDE for C# - Visual Studio - is very powerful to use. Unfortunatelly, I do not have as much contact with this technology as before.",
-   "resume_git": "The most used versioning system. The first time that I used Git was in 2018. It is very simple to use and has a lot of clients to facilitate its usage."
+   "resume_git": "The most used versioning system. The first time that I used Git was in 2018. It is very simple to use and has a lot of clients to facilitate its usage.",
+
+   "portfolio_check": "See the projects that I have worked on"
 }

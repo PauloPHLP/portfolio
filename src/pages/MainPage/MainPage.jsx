@@ -61,7 +61,7 @@ function MainPage() {
             <Header/>
             <About/>
             <Resume/>
-            {/* <Portfolio/> */}
+            <Portfolio/>
             {/* <Testimonials/> */}
             <Footer/>
           </Animated>
