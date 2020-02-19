@@ -1,0 +1,66 @@
+import React, { useEffect, useState } from "react";
+import ScrollableAnchor from "react-scrollable-anchor"
+import { useTranslation } from "react-i18next";
+import { getArticles } from "../../providers/ApiHandlers";
+import "./Articles.css"
+
+function Articles() {
+  const [articles, setArticles] = useState([]);
+  const { t } = useTranslation();
+
+  useEffect(() => {
+    // getArticles()
+    // .then((articles) => {
+    //   setArticles(articles);
+    // })
+    // .catch((err) => {
+    //   console.log(err);
+    // });
+
+    // fetch("https://medium.com/feed/@itspaulolimahimself")
+    // .then((results) => {
+    //   console.log(results);
+    // })
+    // .catch((err) => {
+    //   console.log(err)
+    // });
+  }, []);
+
+  useEffect(() => {
+    console.log(articles);
+  }, [articles]);
+  
+  return (
+    <ScrollableAnchor id="his-articles">
+      <section id="articles">
+        <div className="row education">
+          <div className="three columns header-col">
+            <h1><span>{t("resume_education")}</span></h1>
+          </div>
+          <div className="nine columns main-col">
+            <div className="row item">
+              <div className="twelve columns">
+                <div><h3><a href="https://www.up.edu.br/index.html" target="_blank" rel="noopener noreferrer">{t("resume_university")}</a></h3>
+                  <p className="info">{t("resume_course")}<span>•</span><em className="date">{t("resume_date")}</em></p>
+                  <p>{t("resume_details")}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="nine columns main-col">
+            <div className="row item">
+              <div className="twelve columns">
+                <div><h3><a href="https://www.up.edu.br/index.html" target="_blank" rel="noopener noreferrer">{t("resume_university")}</a></h3>
+                  <p className="info">{t("resume_course")}<span>•</span><em className="date">{t("resume_date")}</em></p>
+                  <p>{t("resume_details")}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </ScrollableAnchor>
+  );
+}
+
+export default Articles;
