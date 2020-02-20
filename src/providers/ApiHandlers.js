@@ -1,11 +1,11 @@
-// const axios = require("axios");
+const axios = require("axios");
 
-// const api = axios.create({
-//   baseURL: "https://medium.com/feed/@itspaulolimahimself"
-// });
+const api = axios.create({
+  baseURL: "http://localhost:6006/api/v1/articles"
+});
 
-// export async function getArticles() {
-//   return api.get("", { })
-//   .then(res => res.data)
-//   .catch(err => err.response);
-// }
+export async function getArticles() {
+  return api.get("", { })
+  .then(res => res.data)
+  .catch(err => err.response);
+}

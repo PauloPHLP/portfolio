@@ -53,5 +53,8 @@
    "resume_csharp": "The first programming language that I had contact and really worked with. A lot of cool stuff can be done with it and the most used IDE for C# - Visual Studio - is very powerful to use. Unfortunatelly, I do not have as much contact with this technology as before.",
    "resume_git": "The most used versioning system. The first time that I used Git was in 2018. It is very simple to use and has a lot of clients to facilitate its usage.",
 
-   "portfolio_check": "See the projects that I have worked on"
+   "portfolio_check": "See the projects that I have worked on",
+
+   "articles_title": "See my articles on Medium",
+   "articles_emptyMessage": "Sorry, it seems that I have not been writing much lately..."
 }

@@ -65,3 +65,32 @@ img.skill {
   font: 15px/24px 'opensans-regular', sans-serif;
   margin-top: 6px;
 }
+
+#articles h3.articles-title {
+  font: 40px/45px 'opensans-semibold', sans-serif;
+}
+
+#articles h3.articles-empty-message {
+  font: 15px/20px 'opensans-semibold', sans-serif;
+}
+
+.articles-title {
+  margin-bottom: 4rem;
+  color: #313131;
+}
+
+.loader-aligner {
+  margin-left: auto;
+  margin-right: auto;
+  display: table;
+}
+
+#articles h1 span {
+  border: none;
+  color: #11ABB0;
+}
+
+#articles h1 span:hover {
+  cursor: pointer;
+  color: #74FBFE;
+}
