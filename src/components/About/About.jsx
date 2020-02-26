@@ -1,9 +1,9 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import ScrollableAnchor from "react-scrollable-anchor";
 import picture from "./../../assets/images/picture.jpg";
 import EnglishModel from '../../assets/resumes/Resume.pdf';
 import PortugueseModel from '../../assets/resumes/Curriculo.pdf';
-import { useTranslation } from "react-i18next";
 import "./About.css"
 
 function About() {

@@ -1,7 +1,7 @@
 import React from "react";
-import Network from '../Network/Network';
 import { Link } from "react-scroll";
 import { useTranslation } from "react-i18next";
+import Network from '../Network/Network';
 import "./Header.css";
 
 const ReactFitText = require("react-fittext");

@@ -3,7 +3,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import Tooltip from "@material-ui/core/Tooltip";
 import "./Network.css";
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles(() => ({
   customWidth: {
     marginTop: 1,
     fontSize: 14,

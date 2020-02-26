@@ -74,17 +74,6 @@ img.skill {
   font: 15px/20px 'opensans-semibold', sans-serif;
 }
 
-.articles-title {
-  margin-bottom: 4rem;
-  color: #313131;
-}
-
-.loader-aligner {
-  margin-left: auto;
-  margin-right: auto;
-  display: table;
-}
-
 #articles h1 span {
   border: none;
   color: #11ABB0;
@@ -92,5 +81,25 @@ img.skill {
 
 #articles h1 span:hover {
   cursor: pointer;
+  color: #74FBFE;
+}
+
+.articles-title {
+  margin-bottom: 4rem;
+  color: #313131;
+}
+
+.loader-aligner, .see-more {
+  margin-left: auto;
+  margin-right: auto;
+  display: table;
+}
+
+.see-more {
+  color: #11ABB0;
+  font-size: 8rem;
+}
+
+.see-more:hover {
   color: #74FBFE;
 }

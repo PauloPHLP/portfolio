@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import html5 from './../../../assets/images/html5.png';
 import css3 from './../../../assets/images/css3.png';
 import javascript from './../../../assets/images/javascript.png';
@@ -7,7 +8,6 @@ import reactjs from './../../../assets/images/reactjs.png';
 import vuejs from './../../../assets/images/vuejs.png';
 import csharp from './../../../assets/images/csharp.png';
 import git from './../../../assets/images/git.png';
-import { useTranslation } from "react-i18next";
 import "./Technologies.css"
 
 function Technologies() {
