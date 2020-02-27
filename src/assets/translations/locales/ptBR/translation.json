@@ -4,6 +4,7 @@
   "navbar_resume": "Currículo",
   "navbar_work": "Trabalhos",
   "navbar_testimonials": "Depoimentos",
+  "navbar_articles": "Artigos",
 
   "header_title": "Sou Paulo Lima",
   "header_a": "Um",
@@ -51,5 +52,8 @@
   "resume_csharp": "A primeira linguagem de programação com a qual realmente tive contato e trabalhei. Um monte de coisas legais podem ser feitas com ela e o IDE mais usado para C# - o Visual Studio - é muito poderoso de se usar. Infelizmente, eu não tenho tanto contato com essa tecnologia como antes.",
   "resume_git": "O sistema de versionamento mais usado. A primeira vez que usei o Git foi em 2018. É muito simples de usar e tem muitos clientes para facilitar seu uso.",
 
-  "portfolio_check": "Veja os projetos em que trabalhei"
+  "portfolio_check": "Veja os projetos em que trabalhei",
+
+  "articles_title": "Veja meus artigos no Medium",
+  "articles_emptyMessage": "Desculpe, parece que eu não estou escrevendo muito ultimamente..."
 }

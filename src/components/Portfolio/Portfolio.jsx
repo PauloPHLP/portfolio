@@ -1,10 +1,10 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import ScrollableAnchor from "react-scrollable-anchor";
 import arr2b from './../../assets/images/arr2b.jpg';
 import facial_recognition from './../../assets/images/facial_recognition.jpg';
 import welcome_screen_cinq from './../../assets/images/welcome_screen_cinq.jpg';
 import IoT from './../../assets/images/IoT.png';
-import { useTranslation } from "react-i18next";
 import "./Portfolio.css"
 
 function Portfolio() {
@@ -19,7 +19,7 @@ function Portfolio() {
             <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
               <div className="columns portfolio-item">
                 <div className="item-wrap">
-                  <a href="https://www.linkedin.com/in/paulo-lima-1218a9149/" title="ARR 2B Orchestration Service" target="_blank">
+                  <a href="https://www.linkedin.com/in/paulo-lima-1218a9149/" title="ARR 2B Orchestration Service" target="_blank" rel="noopener noreferrer">
                     <img alt="ARR 2B Orchestration Service" src={arr2b} className="portfolio-img"/>
                     <div className="overlay">
                       <div className="portfolio-item-meta">
@@ -32,7 +32,7 @@ function Portfolio() {
               </div>
               <div className="columns portfolio-item">
                 <div className="item-wrap">
-                  <a href="https://www.linkedin.com/in/paulo-lima-1218a9149/" title="Facial Recognition" target="_blank">
+                  <a href="https://www.linkedin.com/in/paulo-lima-1218a9149/" title="Facial Recognition" target="_blank" rel="noopener noreferrer">
                     <img alt="ARR 2B Orchestration Service" src={facial_recognition} className="portfolio-img"/>
                     <div className="overlay">
                       <div className="portfolio-item-meta">
@@ -45,7 +45,7 @@ function Portfolio() {
               </div>
               <div className="columns portfolio-item">
                 <div className="item-wrap">
-                  <a href="https://www.linkedin.com/in/paulo-lima-1218a9149/" title="Welcome Screen" target="_blank">
+                  <a href="https://www.linkedin.com/in/paulo-lima-1218a9149/" title="Welcome Screen" target="_blank" rel="noopener noreferrer"> 
                     <img alt="ARR 2B Orchestration Service" src={welcome_screen_cinq} className="portfolio-img"/>
                     <div className="overlay">
                       <div className="portfolio-item-meta">
@@ -58,7 +58,7 @@ function Portfolio() {
               </div>
               <div className="columns portfolio-item">
                 <div className="item-wrap">
-                  <a href="https://corvalent.com/connected-assets-technologies-and-application-performance-management-cat-apm-iot-solutions/" title="IoT Energy & Oil" target="_blank">
+                  <a href="https://corvalent.com/connected-assets-technologies-and-application-performance-management-cat-apm-iot-solutions/" title="IoT Energy & Oil" target="_blank" rel="noopener noreferrer">
                     <img alt="ARR 2B Orchestration Service" src={IoT} className="portfolio-img"/>
                     <div className="overlay">
                       <div className="portfolio-item-meta">

@@ -1,15 +1,16 @@
 import React, { useEffect, useState } from "react";
+import { css } from "@emotion/core";
+import { Animated } from "react-animated-css";
+import { useTranslation } from "react-i18next";
 import Header from "./../../components/Header/Header";
 import Footer from "./../../components/Footer/Footer";
 import About from "./../../components/About/About";
 import Resume from "./../../components/Resume/Resume";
 // import Testimonials from "./../../components/Testimonials/Testimonials";
+import Articles from "./../../components/Articles/Articles";
 import Portfolio from "./../../components/Portfolio/Portfolio";
 import Navbar from "../../components/Navbar/Navbar";
 import HashLoader from 'react-spinners/HashLoader';
-import { css } from "@emotion/core";
-import {Animated} from "react-animated-css";
-import { useTranslation } from "react-i18next";
 
 const override = css`
   display: block;
@@ -63,6 +64,7 @@ function MainPage() {
             <Resume/>
             <Portfolio/>
             {/* <Testimonials/> */}
+            <Articles/>
             <Footer/>
           </Animated>
         </div>

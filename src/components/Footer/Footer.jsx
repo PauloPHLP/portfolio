@@ -1,9 +1,21 @@
 import React from "react";
-import Network from "../Network/Network";
 import { Link } from "react-scroll";
+import { makeStyles } from "@material-ui/core/styles";
+import Network from "../Network/Network";
+import Tooltip from "@material-ui/core/Tooltip";
 import "./Footer.css";
 
+const useStyles = makeStyles(() => ({
+  customWidth: {
+    marginTop: 1,
+    fontSize: 16,
+    backgroundColor: "transparent"
+  }
+}));
+
 function Footer() {
+  const classes = useStyles();
+
   return (
     <footer>
       <div className="row">
@@ -17,15 +29,16 @@ function Footer() {
           </ul>
         </div>
         <div id="go-top">
-          <Link 
-            title="Back to Top"
-            className="icon-up-open smoothscroll"
-            to="header"
-            spy={true}
-            smooth={true}
-            offset={-70}
-            duration= {1000}
+          <Tooltip title="Back to top" aria-label="Back to top" classes={{ tooltip: classes.customWidth }}>  
+            <Link 
+              className="icon-up-open smoothscroll"
+              to="header"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration= {1000}
             />
+          </Tooltip>
         </div>
       </div>
     </footer>
