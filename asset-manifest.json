@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.6c25683e.chunk.css",
-    "main.js": "/portfolio/static/js/main.9f4a2ba4.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.9f4a2ba4.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.448b0003.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.448b0003.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.44087e9b.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.44087e9b.js.map",
-    "static/js/2.7cf78c48.chunk.js": "/portfolio/static/js/2.7cf78c48.chunk.js",
-    "static/js/2.7cf78c48.chunk.js.map": "/portfolio/static/js/2.7cf78c48.chunk.js.map",
+    "static/js/2.374a8722.chunk.js": "/portfolio/static/js/2.374a8722.chunk.js",
+    "static/js/2.374a8722.chunk.js.map": "/portfolio/static/js/2.374a8722.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.ee7fa670413b071fa2d7ab20d3ce6370.js": "/portfolio/precache-manifest.ee7fa670413b071fa2d7ab20d3ce6370.js",
+    "precache-manifest.58938233696cda7d96229cc87354d834.js": "/portfolio/precache-manifest.58938233696cda7d96229cc87354d834.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/main.6c25683e.chunk.css.map": "/portfolio/static/css/main.6c25683e.chunk.css.map",
-    "static/js/2.7cf78c48.chunk.js.LICENSE.txt": "/portfolio/static/js/2.7cf78c48.chunk.js.LICENSE.txt",
+    "static/js/2.374a8722.chunk.js.LICENSE.txt": "/portfolio/static/js/2.374a8722.chunk.js.LICENSE.txt",
     "static/media/Curriculo.pdf": "/portfolio/static/media/Curriculo.befbbadf.pdf",
     "static/media/IoT.png": "/portfolio/static/media/IoT.f6f9aaf3.png",
     "static/media/Resume.pdf": "/portfolio/static/media/Resume.fedbdb2b.pdf",
@@ -31,8 +31,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.44087e9b.js",
-    "static/js/2.7cf78c48.chunk.js",
+    "static/js/2.374a8722.chunk.js",
     "static/css/main.6c25683e.chunk.css",
-    "static/js/main.9f4a2ba4.chunk.js"
+    "static/js/main.448b0003.chunk.js"
   ]
 }
