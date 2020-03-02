@@ -25,7 +25,7 @@ function Footer() {
           </ul>
           <ul className="copyright">
             <li>&copy; Copyright 2017 Tim Baker</li>
-            <li>Design by <a title="Styleshout" href="http://www.styleshout.com/" target="_blank" rel="noopener noreferrer">Styleshout</a></li>
+            <li>Design by <a href="http://www.styleshout.com/" target="_blank" rel="noopener noreferrer">Styleshout</a></li>
           </ul>
         </div>
         <div id="go-top">

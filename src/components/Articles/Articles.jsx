@@ -13,13 +13,15 @@ const useStyles = makeStyles(() => ({
   customWidth: {
     fontSize: 14,
     marginTop: -15,
-    backgroundColor: "#303030"
+    color: "#000000",
+    backgroundColor: "transparent"
   },
   customWidthTitle: {
     fontSize: 14,
     marginTop: 1,
     marginLeft: -20,
-    backgroundColor: "#303030"
+    color: "#000000",
+    backgroundColor: "transparent"
   }
 }));
 
