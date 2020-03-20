@@ -186,3 +186,7 @@ body {
   background: rgba(255, 255, 255, .9);
   cursor: default;
 }
+
+#testimonials blockquote cite:hover {
+  color: #74FBFE;
+}

@@ -56,5 +56,8 @@
    "portfolio_check": "See the projects that I have worked on",
 
    "articles_title": "See my articles on Medium",
-   "articles_emptyMessage": "Sorry, it seems that I have not been writing much lately..."
+   "articles_emptyMessage": "Sorry, it seems that I have not been writing much lately...",
+
+   "testimonials_marcioText": "I mentored Paulo and from the beginning I saw the potential of this guy. An excellent professional, persistent, effective and focused on solving the problems presented. A proactive co-worker who is always receptive to a good conversation or simply clarifying technical questions. I recommend it without thinking twice. This guy is awesome.",
+   "testimonials_marcioName": "former mentor."
 }

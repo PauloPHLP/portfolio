@@ -35,8 +35,8 @@ function About() {
               </div>
               <div className="columns download">
                 <p>
-                  <a href={EnglishModel} className="button" target="_blank"><i className="fa fa-download"></i>{t("about_download")} (EN-US)</a>
-                  <a href={PortugueseModel} className="button btn-sec" target="_blank"><i className="fa fa-download"></i> {t("about_download")} (PT-BR)</a>
+                  <a href={EnglishModel} className="button" target="_blank" rel="noopener noreferrer"><i className="fa fa-download"></i>{t("about_download")} (EN-US)</a>
+                  <a href={PortugueseModel} className="button btn-sec" target="_blank" rel="noopener noreferrer"><i className="fa fa-download"></i> {t("about_download")} (PT-BR)</a>
                 </p>
               </div>
             </div>
