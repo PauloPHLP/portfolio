@@ -114,17 +114,17 @@ function Navbar() {
             <a id="anchor-about-him" className="disabled-section" href="#about-him">{t("navbar_about")}</a>
           </li>
           <li>
-            <a id="anchor-his-resume" className="disabled-section"  href="#his-resume">{t("navbar_resume")}</a>
+            <a id="anchor-his-resume" className="disabled-section" href="#his-resume">{t("navbar_resume")}</a>
           </li>
           <li>
-            <a id="anchor-his-works" className="disabled-section"  href="#his-works">{t("navbar_work")}</a>
+            <a id="anchor-his-works" className="disabled-section" href="#his-works">{t("navbar_work")}</a>
           </li>
           <li>
-            <a id="anchor-his-articles" className="disabled-section"  href="#his-articles">{t("navbar_articles")}</a>
+            <a id="anchor-his-testimonials" className="disabled-section" href="#his-testimonials">{t("navbar_testimonials")}</a>
           </li>
-          {/* <li>
-            <a id="anchor-his-testimonials" className="disabled-section"  href="#his-testimonials">{t("navbar_testimonials")}</a>
-          </li>*/}
+          <li>
+            <a id="anchor-his-articles" className="disabled-section" href="#his-articles">{t("navbar_articles")}</a>
+          </li>
           <li>
             <Tooltip title="Translate to english." aria-label="Translate to english." classes={{ tooltip: classes.customWidth }}>
               <img src={united_states} className={getCurrentLanguage() === "enUS" ? "flag-activated" : "flag"} alt="Translate to english." onClick={() => changeLanguage("enUS")}/>

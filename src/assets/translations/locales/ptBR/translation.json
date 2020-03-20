@@ -55,5 +55,8 @@
   "portfolio_check": "Veja os projetos em que trabalhei",
 
   "articles_title": "Veja meus artigos no Medium",
-  "articles_emptyMessage": "Desculpe, parece que eu não estou escrevendo muito ultimamente..."
+  "articles_emptyMessage": "Desculpe, parece que eu não estou escrevendo muito ultimamente...",
+
+  "testimonials_marcioText": "Eu mentorei o Paulo e, desde o começo, vi o potencial desse cara. Um excelente profissional, persistente, eficaz e focado na solução dos problemas apresentados. Um colega de trabalho proativo, sempre receptivo a uma boa conversa ou simplesmente a esclarecer questões técnicas. Eu recomendo sem pensar duas vezes. Este cara é incrível.",
+  "testimonials_marcioName": "ex-mentor."
 }

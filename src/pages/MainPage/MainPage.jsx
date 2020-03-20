@@ -6,7 +6,7 @@ import Header from "./../../components/Header/Header";
 import Footer from "./../../components/Footer/Footer";
 import About from "./../../components/About/About";
 import Resume from "./../../components/Resume/Resume";
-// import Testimonials from "./../../components/Testimonials/Testimonials";
+import Testimonials from "./../../components/Testimonials/Testimonials";
 import Articles from "./../../components/Articles/Articles";
 import Portfolio from "./../../components/Portfolio/Portfolio";
 import Navbar from "../../components/Navbar/Navbar";
@@ -15,7 +15,7 @@ import HashLoader from 'react-spinners/HashLoader';
 const override = css`
   display: block;
   margin: 0 auto;
-  display: contents
+  display: contents; 
 `;
 
 function MainPage() {
@@ -63,7 +63,7 @@ function MainPage() {
             <About/>
             <Resume/>
             <Portfolio/>
-            {/* <Testimonials/> */}
+            <Testimonials/>
             <Articles/>
             <Footer/>
           </Animated>
