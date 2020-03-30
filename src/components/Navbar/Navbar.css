@@ -74,3 +74,13 @@ a:hover, a:focus {
   height: 30px;
   margin-bottom: -1rem;
 }
+
+.show-btn {
+  opacity: 1;
+  transition: opacity .5s;
+}
+
+.hide-btn {
+  opacity: 0;
+  transition: opacity .5s;
+}

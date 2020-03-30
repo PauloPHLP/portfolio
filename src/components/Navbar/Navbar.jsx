@@ -19,7 +19,7 @@ function Navbar() {
   useEffect(() => {
     handleNavbarOnScroll();
     setActiveSection();
-  });
+  }, []);
 
   const classes = useStyles();
   const { t, i18n } = useTranslation();
@@ -45,6 +45,12 @@ function Navbar() {
         navbar.style.webkitTransition = "opacity 0.5s ease-in-out";
         navbar.style.opacity = 0;
       } else {
+        if (scroll > height) 
+          setMobileButtons("down");
+
+        if (scroll < height)
+          setMobileButtons("up");
+
         if (scroll < height * .20) {
           navbar.style.webkitTransition = "opacity 0.5s ease-out-in";
           navbar.style.opacity = 1;
@@ -101,11 +107,38 @@ function Navbar() {
     scroll.scrollToTop();
   }
 
+  const checkScroll = (e) => {
+    if (window.location.hash && window.location.hash !== "#home" && window.location.hash !== "#nav-wrap") 
+      e.preventDefault();
+  }
+
+  const setMobileButtons = (movement) => {
+    const showBtn = document.getElementById("btn-show");
+    const hideBtn = document.getElementById("btn-hide");
+
+    if (movement === "up") {
+      showBtn.classList.remove("hide-btn");
+      hideBtn.classList.remove("hide-btn");
+      showBtn.classList.add("show-btn");
+      hideBtn.classList.add("show-btn");
+    } else {
+      showBtn.classList.remove("show-btn");
+      hideBtn.classList.remove("show-btn");
+      showBtn.classList.add("hide-btn");
+      hideBtn.classList.add("hide-btn");
+
+      setTimeout(() => {
+        showBtn.classList.add("hide-btn-visibility");
+        hideBtn.classList.add("hide-btn-visibility");
+      }, 600);
+    }
+  }
+
   return (
     <Suspense fallback="loading">
       <nav id="nav-wrap">
-        <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-        <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
+        <a id="btn-show" className="mobile-btn" href="#nav-wrap" title="Show navigation" onClick={(e) => checkScroll(e)}>Show navigation</a>
+        <a id="btn-hide" className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
         <ul id="nav" className="nav">
           <li>
             <a id="anchor-home" className="active-section" onClick={scrollToTop}>{t("navbar_home")}</a>
