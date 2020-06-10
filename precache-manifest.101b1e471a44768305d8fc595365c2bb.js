@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "aaacca855f6f50fcab73c4d4af2ab388",
+    "revision": "e1b1120b5ecfe7eca958619b624400bd",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "06a637273dbc1546f34d",
-    "url": "/portfolio/static/css/main.96b1945d.chunk.css"
+    "revision": "d7bd234ed1f7e2ac25de",
+    "url": "/portfolio/static/css/main.25c45d78.chunk.css"
   },
   {
     "revision": "922b05dc26007802559f",
@@ -16,24 +16,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.3e340a35.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "06a637273dbc1546f34d",
-    "url": "/portfolio/static/js/main.68811048.chunk.js"
+    "revision": "d7bd234ed1f7e2ac25de",
+    "url": "/portfolio/static/js/main.352c3fc4.chunk.js"
   },
   {
     "revision": "0d98471f6c3b69ca4251",
     "url": "/portfolio/static/js/runtime-main.44087e9b.js"
   },
   {
-    "revision": "befbbadf444d6108add5d032182ac6e1",
-    "url": "/portfolio/static/media/Curriculo.befbbadf.pdf"
+    "revision": "27dae817d28e98ac92e76d0fe33bd7d7",
+    "url": "/portfolio/static/media/Curriculo.27dae817.pdf"
   },
   {
     "revision": "f6f9aaf383f00c2b10c63064c5b8f469",
     "url": "/portfolio/static/media/IoT.f6f9aaf3.png"
   },
   {
-    "revision": "fedbdb2bb929772cf03ec8d643d7c7ce",
-    "url": "/portfolio/static/media/Resume.fedbdb2b.pdf"
+    "revision": "5bbbc1be61f38caffefab4e2dd558239",
+    "url": "/portfolio/static/media/Resume.5bbbc1be.pdf"
   },
   {
     "revision": "faec1d361db4bb56a52458618c19e335",
