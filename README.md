@@ -1,4 +1,4 @@
-# 🖥️ Paulo Lima | Portfolio
+# 🖥️ Portfolio
 
 ![ReactJS Resume Website](./src/assets/images/readme.png?raw=true "ReactJS Resume Website")
 
@@ -13,5 +13,4 @@ If you want to see the final result, please click <a href="https://paulophlp.git
 
 Thank you and good coding =)
 
-Feito com ❤️ by **Rocketseat/mpgxc**
 Made by **<a href="https://paulophlp.github.io/portfolio/">Paulo Lima</a>**
