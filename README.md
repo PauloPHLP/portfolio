@@ -11,9 +11,9 @@ To make my portfolio look good I'm using a modified ReactJS template that you ca
 
 If you want to see the final result, please click <a href="https://paulophlp.github.io/portfolio/">here.</a>
 
-Thank you and good coding 😎️Docs: Change README.md file.
+Thank you and good coding 😎️
 
-## 🚀️ Docs: Change README.md file.Technologies
+## 🚀️ Technologies
 
 - React.js
 
