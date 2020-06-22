@@ -11,6 +11,10 @@ To make my portfolio look good I'm using a modified ReactJS template that you ca
 
 If you want to see the final result, please click <a href="https://paulophlp.github.io/portfolio/">here.</a>
 
-Thank you and good coding =)
+Thank you and good coding 😎️Docs: Change README.md file.
 
-Made by **<a href="https://paulophlp.github.io/portfolio/">Paulo Lima</a>**
+## Technologies🚀️
+
+- React.js
+
+Made by **<a href="https://paulophlp.github.io/portfolio/">Paulo Lima 🤓️</a>**
