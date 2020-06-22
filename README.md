@@ -17,4 +17,6 @@ Thank you and good coding 😎️
 
 - React.js
 
+---
+
 Made by **<a href="https://paulophlp.github.io/portfolio/">Paulo Lima 🤓️</a>**
