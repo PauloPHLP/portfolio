@@ -20,6 +20,17 @@ function Education() {
           </div>
         </div>
       </div>
+
+      <div className="nine columns main-col">
+        <div className="row item">
+          <div className="twelve columns">
+            <div><h3><a href="https://rocketseat.com.br/" target="_blank" rel="noopener noreferrer">{t("resume_bootcamp")}</a></h3>
+              <p className="info">{t("resume_bootcamp_title")}<span>•</span><em className="date">{t("resume_bootcamp_date")}</em></p>
+              <p>{t("resume_bootcamp_details")}</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
