@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8312005a1c7042a1502fbf43fb290aff",
+    "revision": "c187b1f58a9dd17f18a4a6118956ab37",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "2f2692a3506ac607ae8d",
+    "revision": "24ad52db43cb8ad4f9f2",
     "url": "/portfolio/static/css/main.96b1945d.chunk.css"
   },
   {
@@ -16,24 +16,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.3e340a35.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2f2692a3506ac607ae8d",
-    "url": "/portfolio/static/js/main.169359af.chunk.js"
+    "revision": "24ad52db43cb8ad4f9f2",
+    "url": "/portfolio/static/js/main.7b2ebe9c.chunk.js"
   },
   {
     "revision": "0d98471f6c3b69ca4251",
     "url": "/portfolio/static/js/runtime-main.44087e9b.js"
   },
   {
-    "revision": "e9991dab65a0664d9652f1c4d333d9b1",
-    "url": "/portfolio/static/media/Curriculo.e9991dab.pdf"
+    "revision": "445e4cebdcef872df74b6fae30b7701e",
+    "url": "/portfolio/static/media/Curriculo.445e4ceb.pdf"
   },
   {
     "revision": "f6f9aaf383f00c2b10c63064c5b8f469",
     "url": "/portfolio/static/media/IoT.f6f9aaf3.png"
   },
   {
-    "revision": "99326f655be9bdee3dfce3266db6c62c",
-    "url": "/portfolio/static/media/Resume.99326f65.pdf"
+    "revision": "1890cfaef9cdd65fe4c2624cc80a8bcd",
+    "url": "/portfolio/static/media/Resume.1890cfae.pdf"
   },
   {
     "revision": "faec1d361db4bb56a52458618c19e335",
