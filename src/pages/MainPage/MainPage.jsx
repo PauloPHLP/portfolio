@@ -62,7 +62,8 @@ function MainPage() {
             <Header/>
             <About/>
             <Resume/>
-            <Portfolio/>
+            {/* Portfolio section is disabled - Not so useful - Can be improved in the future. */}
+            {/* <Portfolio/> */}
             <Testimonials/>
             <Articles/>
             <Footer/>

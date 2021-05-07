@@ -17,7 +17,7 @@ function Header() {
             <ReactFitText compressor={1} minFontSize={40} maxFontSize={90}>
               <h1 className="responsive-headline">{t("header_title")}</h1>
             </ReactFitText> 
-            <h3>{t("header_a")} <span>{t("header_carrer")}</span> {t('header_based')} <span>Curitiba</span> {t('header_works')} <span>{t("header_occupation")}</span> {t("header_using")} <span><a href="https://www.javascript.com/" className="span-anchor" target="_blank" rel="noopener noreferrer">JavaScript</a></span> {t('header_technology')}</h3>
+            <h3>{t("header_a")} <span>{t("header_carrer")}</span> {t('header_based')} <span>Curitiba</span> {t('header_works')} <span>{t("header_occupation")}</span> {t("header_using")} <span><a href="https://www.javascript.com/" className="span-anchor" target="_blank" rel="noopener noreferrer">React.js</a></span> {t('header_technology')}</h3>
             <ul className="social">
               <hr/>
               <Network/>

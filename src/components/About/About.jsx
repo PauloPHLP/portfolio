@@ -30,7 +30,7 @@ function About() {
                   <span>Curitiba - PR, Brazil
                   </span><br />
                   <span>041 9 9783-5546</span><br />
-                  <span><a href="mailto:paulo.phlp@outlook.com">paulo.phlp@outlook.com</a></span>
+                  <span><a href="mailto:paulo.phlp@outlook.com">plima.himself@gmail.com</a></span>
                 </p>
               </div>
               <div className="columns download">

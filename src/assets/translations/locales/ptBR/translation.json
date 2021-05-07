@@ -11,12 +11,12 @@
   "header_carrer": "Engenheiro de Software",
   "header_based": "de",
   "header_works": "que atua como",
-  "header_occupation": "Desenvolvedor Web Full Stack",
+  "header_occupation": "Desenvolvedor Front-end",
   "header_using": "utilizando",
   "header_technology": " como principal tecnologia.",
 
   "about_me": "Sobre mim",
-  "about_p1": "Sou músico por vocação, com um espírito artístico e apaixonado por codificação. Depois de terminar os meus anos de ensino médio, decidi que o desenvolvimento era a coisa que queria fazer para viver. Então, comecei a estudar Análise e Desenvolvimento de Sistemas na faculdade. O primeiro emprego que tive foi um estágio como Suporte Técnico na Universidade Positivo. Depois de um tempo, deixei o estágio e comecei meu primeiro trabalho como desenvolvedor na Cinq Technologies, onde trabalho até hoje. No começo, eu era estagiário e trabalhava principalmente como desenvolvedor de C# mas, depois de alguns meses, tive a oportunidade de trabalhar em um PoC (Proof of Concept) com o Vue.js. Esse PoC me fez apaixonar por Desenvolvimento Web e JavaScript e também me fez crescer na empresa. Atualmente sou Full Stack Web Software Engineer, trabalhando principalmente com JavaScript e React.js.",
+  "about_p1": "Sou músico por vocação, com um espírito artístico e apaixonado por codificação. Depois de terminar os meus anos de ensino médio, decidi que o desenvolvimento era a coisa que queria fazer para viver. Então, comecei a estudar Análise e Desenvolvimento de Sistemas na faculdade. O primeiro emprego que tive foi um estágio como Suporte Técnico na Universidade Positivo. Depois de um tempo, deixei o estágio e comecei meu primeiro trabalho como desenvolvedor na Cinq Technologies, onde trabalho até hoje. No começo, eu era estagiário e trabalhava principalmente como desenvolvedor de C# mas, depois de alguns meses, tive a oportunidade de trabalhar em um PoC (Proof of Concept) com o Vue.js e React.js. Esses PoCs fizeram eu me apaixonar por Desenvolvimento Web e JavaScript e também me fez crescer na empresa. Atualmente sou Engenheiro Front-end, trabalhando principalmente com JavaScript e React.js.",
   "about_p2": "Sou uma pessoa bem organizada, gosto de trabalhar em equipe, apaixonado por aprender e descobrir. Estou sempre tentando forçar meus limites para ser uma pessoa e um profissional melhor.",
   "about_contact": "Detalhes para contato",
   "about_download": "Baixar currículo",
@@ -33,22 +33,34 @@
   "resume_bootcamp_details": "Uma ótima experiência. Escolhi este curso para analisar os conceitos mais profundos de JavaScript, React.js, React Native e Node.js. Pude aprender e aplicar pensamentos mais complexos relacionados a essas tecnologias e até hoje posso sentir todas as melhorias que obtive com este curso.",
 
   "resume_work": "Trabalho",
+  
   "resume_job1": "Suporte Técnico",
   "resume_job1Date": "Julho 2017 - Agosto 2017",
   "resume_job1Details": "Trabalhei realizando o suporte técnico para professores e alunos da universidade. Realizava atendimentos durante aulas para resolução de eventuais problemas, fazia a instalação de softwares e sistemas operacionais nos computadores e também a manutenção preventiva de máquinas, notebooks e projetores.",
+  
   "resume_job2": "Estagiário de Desenvolvimento",
   "resume_job2Date": "Maio 2018 - Setembro 2019",
   "resume_job2Details": "Meu primeiro estágio na área de desenvolvimento de software. Comecei trabalhando com a linguagem C# em um projeto internacional de uma aplicação de orquestração de serviços com XML. Depois, acabei me interessando pelo mundo web e criei uma aplicação para gerenciamento de telas de boas-vindas com Node.js. Mais ao final do programa de estágio, tive a oportunidade de criar uma aplicação Vue.js para fins de PoC. A aplicação usava o Azure Cognitive Services para reconhecimento do rosto do usuário.",
+  
   "resume_job3": "Engenheiro de Software",
-  "resume_job3Date": "Outubro 2019 - Presente",
+  "resume_job3Date": "Outubro 2019 - Abril 2021",
   "resume_job3Details": "O primeiro emprego de verdade. Após ter me encontrado no mundo web e no desenvolvimento de JavaScript durante o estágio, fui alocado em um projeto internacional para um sistema de monitoramento de sensores como desenvolvedor web Junior. O projeto possui React.js para o front-end e uma plataforma IoT chamada ClearBlade para o desenvolvimento de back-end. Em junho de 2020, a Cinq Technologies foi fundida com a Dextra Digital após ser adquirida pela Mutant e fui promovido a Full Stack Web Engineer, que é a função que exerço agora.",
+  
+  "resume_boticario": "Grupo Boticário",
+  "resume_job4": "Desenvolvedor Front-end",
+  "resume_job4Date": "Maio 2021 - Atualmente",
+  "resume_job4Details": "Um novo passo na minha carreira, desta vez focando apenas no Front-end com React.js, entro com os desafios da constração/melhoria das telas de atendimento de Venda Direta.",
+  
   "resume_language": "Idiomas",
+  
   "resume_portuguese": "Português",
   "resume_portugueseDetails": "Fluente, nativo.",
   "resume_english": "Inglês",
   "resume_englishDetails": "Fluente.",
+  
   "resume_tech": "Tecnologias",
   "resume_techMessage": "Já tive contato com vários tipos de tecnologia mas as minhas prediletas/mais usadas são as seguintes:",
+  
   "resume_html5": "HTML 5 é a base para todos os projetos da web que você pode imaginar. O primeiro contato que tive com ele foi em 2017 e o uso desde então.",
   "resume_css3": "A linguagem de estilo mais usada na web. O primeiro contato que tive com ele foi em 2017 e o uso desde então.",
   "resume_javascript": "Minha linguagem preferida. Muito poderosa e com uma comunidade muito bem engajada. Todos os dias é lançado um novo framework ou biblioteca interessante baseado em JavaScript.",
