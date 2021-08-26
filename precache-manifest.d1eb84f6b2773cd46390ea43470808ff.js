@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5eb0081ce27a2196f2448f4f579b2cb5",
+    "revision": "2d7beb427d621743799fca61c3a411d0",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "5ffdc1d6dd9628082bad",
+    "revision": "a59e542cb98281aed015",
     "url": "/portfolio/static/css/main.96b1945d.chunk.css"
   },
   {
@@ -16,24 +16,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.3e340a35.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5ffdc1d6dd9628082bad",
-    "url": "/portfolio/static/js/main.40305cb6.chunk.js"
+    "revision": "a59e542cb98281aed015",
+    "url": "/portfolio/static/js/main.122fccf4.chunk.js"
   },
   {
     "revision": "0d98471f6c3b69ca4251",
     "url": "/portfolio/static/js/runtime-main.44087e9b.js"
   },
   {
-    "revision": "794f3de74bba728c811dd835674dfe87",
-    "url": "/portfolio/static/media/Curriculo.794f3de7.pdf"
+    "revision": "90dd5be07b9a5f9e78d1a38a1dd9826f",
+    "url": "/portfolio/static/media/Curriculo.90dd5be0.pdf"
   },
   {
     "revision": "f6f9aaf383f00c2b10c63064c5b8f469",
     "url": "/portfolio/static/media/IoT.f6f9aaf3.png"
   },
   {
-    "revision": "048d3b34a9d9d2eda74a7e74ad619f13",
-    "url": "/portfolio/static/media/Resume.048d3b34.pdf"
+    "revision": "9e44fb8d4f656322fd680cf305bae1a2",
+    "url": "/portfolio/static/media/Resume.9e44fb8d.pdf"
   },
   {
     "revision": "faec1d361db4bb56a52458618c19e335",
@@ -42,10 +42,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ec3dc271053a689c5336649ca523af42",
     "url": "/portfolio/static/media/brazil_flag.ec3dc271.png"
-  },
-  {
-    "revision": "9c75ca2b0c277584e827c20c0a9ac4eb",
-    "url": "/portfolio/static/media/csharp.9c75ca2b.png"
   },
   {
     "revision": "0abf0024aa7d86e2b1ad924d9a7603a6",
@@ -82,6 +78,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4f9ba2f17a98a7c5ad9cc41ea40b77f2",
     "url": "/portfolio/static/media/testimonials-bg.4f9ba2f1.jpeg"
+  },
+  {
+    "revision": "b0be62fe118de7aa1c10656de566db99",
+    "url": "/portfolio/static/media/typescript.b0be62fe.png"
   },
   {
     "revision": "ff97e132da519724034302a4a92750ef",
