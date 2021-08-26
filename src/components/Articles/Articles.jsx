@@ -140,7 +140,7 @@ function Articles() {
 												<div className="twelve columns">
 													<div>
 														<p className="info">
-															Published &nbsp;
+															Published on &nbsp;
 															<em className="date">
 																{dateFormat(
 																	article.created,
