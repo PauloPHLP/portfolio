@@ -1,7 +1,8 @@
 const axios = require('axios');
 
 const api = axios.create({
-	baseURL: 'http://localhost:5000/api/v1/articles',
+	baseURL:
+		'https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@itspaulolimahimself',
 });
 
 export async function getArticles() {

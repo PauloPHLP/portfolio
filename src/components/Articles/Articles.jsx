@@ -51,10 +51,10 @@ function Articles() {
 	useEffect(() => {
 		getArticles()
 			.then((response) => {
-				const articlesToSave = response.articles.items.map((article) => {
+				const articlesToSave = response.items.map((article) => {
 					return {
 						...article,
-						content_decoded: formatText(article.content_encoded),
+						description: formatText(article.description),
 					};
 				});
 
@@ -143,12 +143,12 @@ function Articles() {
 															Published on &nbsp;
 															<em className="date">
 																{dateFormat(
-																	article.created,
+																	article.pubDate,
 																	'dd/mm/yyyy, HH:MM'
 																)}
 															</em>
 														</p>
-														<p>{article.content_decoded}</p>
+														<p>{article.description}</p>
 													</div>
 												</div>
 											</div>
