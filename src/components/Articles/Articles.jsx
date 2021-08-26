@@ -31,27 +31,41 @@ function Articles() {
 	const { t } = useTranslation();
 	const classes = useStyles();
 
+	const escapeHtml = (text) => {
+		return text
+			.replace('&amp;', '&')
+			.replace('&lt;', '<')
+			.replace('&gt;', '>')
+			.replace('&quot;', '"')
+			.replace('&#39;', "'");
+	};
+
+	const formatText = (text) => {
+		return escapeHtml(
+			text
+				.substring(text.indexOf('<p>'), text.indexOf('</p>'))
+				.replace('<p>', '')
+		);
+	};
+
 	useEffect(() => {
 		getArticles()
 			.then((response) => {
-				console.log(
-					decodeURI(
-						response.articles.items[0].content_encoded
-							.substring(
-								response.articles.items[0].content_encoded.indexOf('<p>'),
-								response.articles.items[0].content_encoded.indexOf('</p>')
-							)
-							.replace('<p>', '')
-					)
-				);
-				setArticles(response.articles.items.slice(0, 3));
+				const articlesToSave = response.articles.items.map((article) => {
+					return {
+						...article,
+						content_decoded: formatText(article.content_encoded),
+					};
+				});
+
+				setArticles(articlesToSave.slice(0, 3));
+
 				setTimeout(() => {
 					setIsLoading(false);
 				}, 1000);
 			})
 			.catch((err) => {
 				setIsLoading(false);
-				console.log(err);
 			});
 	}, []);
 
@@ -134,14 +148,7 @@ function Articles() {
 																)}
 															</em>
 														</p>
-														<p>
-															{article.content_encoded
-																.substring(
-																	article.content_encoded.indexOf('<p>'),
-																	article.content_encoded.indexOf('</p>')
-																)
-																.replace('<p>', '')}
-														</p>
+														<p>{article.content_decoded}</p>
 													</div>
 												</div>
 											</div>
