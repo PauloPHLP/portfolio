@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2d7beb427d621743799fca61c3a411d0",
+    "revision": "a471fabb8b669839f26010e552d5b048",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "a59e542cb98281aed015",
-    "url": "/portfolio/static/css/main.96b1945d.chunk.css"
+    "revision": "d0a697a9096042653256",
+    "url": "/portfolio/static/css/main.3d7fcb18.chunk.css"
   },
   {
-    "revision": "922b05dc26007802559f",
-    "url": "/portfolio/static/js/2.3e340a35.chunk.js"
+    "revision": "52526df3692d27b05579",
+    "url": "/portfolio/static/js/2.a7f866be.chunk.js"
   },
   {
     "revision": "65cb2dbd46e9277340b77ef6a7afc298",
-    "url": "/portfolio/static/js/2.3e340a35.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.a7f866be.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a59e542cb98281aed015",
-    "url": "/portfolio/static/js/main.122fccf4.chunk.js"
+    "revision": "d0a697a9096042653256",
+    "url": "/portfolio/static/js/main.a5176fc2.chunk.js"
   },
   {
     "revision": "0d98471f6c3b69ca4251",
@@ -28,16 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/Curriculo.90dd5be0.pdf"
   },
   {
-    "revision": "f6f9aaf383f00c2b10c63064c5b8f469",
-    "url": "/portfolio/static/media/IoT.f6f9aaf3.png"
-  },
-  {
     "revision": "9e44fb8d4f656322fd680cf305bae1a2",
     "url": "/portfolio/static/media/Resume.9e44fb8d.pdf"
-  },
-  {
-    "revision": "faec1d361db4bb56a52458618c19e335",
-    "url": "/portfolio/static/media/arr2b.faec1d36.jpg"
   },
   {
     "revision": "ec3dc271053a689c5336649ca523af42",
@@ -46,10 +38,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0abf0024aa7d86e2b1ad924d9a7603a6",
     "url": "/portfolio/static/media/css3.0abf0024.png"
-  },
-  {
-    "revision": "dee2f02c61a4216bb248922348baf776",
-    "url": "/portfolio/static/media/facial_recognition.dee2f02c.jpg"
   },
   {
     "revision": "4f3fba57e59f5ffa746f466d0beb0918",
@@ -86,9 +74,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ff97e132da519724034302a4a92750ef",
     "url": "/portfolio/static/media/united-states-flag.ff97e132.png"
-  },
-  {
-    "revision": "467aae41f93b9ce926f40d0648347c93",
-    "url": "/portfolio/static/media/welcome_screen_cinq.467aae41.jpg"
   }
 ]);
