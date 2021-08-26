@@ -51,6 +51,7 @@ function Articles() {
 	useEffect(() => {
 		getArticles()
 			.then((response) => {
+				console.log(response);
 				const articlesToSave = response.items.map((article) => {
 					return {
 						...article,
@@ -125,7 +126,7 @@ function Articles() {
 												<h1>
 													<span className="span-title">
 														<a
-															href={article.url}
+															href={article.link}
 															target="_blank"
 															rel="noopener noreferrer"
 														>
