@@ -51,7 +51,6 @@ function Articles() {
 	useEffect(() => {
 		getArticles()
 			.then((response) => {
-				console.log(response);
 				const articlesToSave = response.items.map((article) => {
 					return {
 						...article,
