@@ -45,7 +45,7 @@ function Technologies() {
 							className="skill"
 							alt="TypeScript."
 							src={typescript}
-							style={{ height: '12rem', 'margin-top': '3rem' }}
+							style={{ height: '12rem', marginTop: '3rem' }}
 						/>
 						<h5 className="tech-name">TypeScript</h5>
 						<p>{t('resume_typescript')}</p>
