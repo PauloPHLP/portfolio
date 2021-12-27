@@ -10,6 +10,6 @@ Welcome to my personal portfolio website project.
 
 To make my portfolio look good I'm using a modified React.js template that you can access <a href="https://github.com/tbakerx/react-resume-template">here.</a>
 
-If you want to check the final result, please click <a href="https://paulophlp.github.io/portfolio/">here.</a>
+If you want to check the final result live, please click <a href="https://paulophlp.github.io/portfolio/">here.</a>
 
 Thank you and good coding =)
