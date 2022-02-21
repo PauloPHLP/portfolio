@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a6f145b9b42c0563e89730dcdad04f01",
+    "revision": "c36ea6b5df7a49d8f395fec4fe5a6592",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "69955fe15c7182758b5d",
+    "revision": "29ca27b0cd4b872192e8",
     "url": "/portfolio/static/css/main.3d7fcb18.chunk.css"
   },
   {
@@ -16,20 +16,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.a7f866be.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "69955fe15c7182758b5d",
-    "url": "/portfolio/static/js/main.4509c9e2.chunk.js"
+    "revision": "29ca27b0cd4b872192e8",
+    "url": "/portfolio/static/js/main.49a6b725.chunk.js"
   },
   {
     "revision": "0d98471f6c3b69ca4251",
     "url": "/portfolio/static/js/runtime-main.44087e9b.js"
   },
   {
-    "revision": "90dd5be07b9a5f9e78d1a38a1dd9826f",
-    "url": "/portfolio/static/media/Curriculo.90dd5be0.pdf"
+    "revision": "b3a39467de7af213e1141423ce049c4f",
+    "url": "/portfolio/static/media/Curriculo.b3a39467.pdf"
   },
   {
-    "revision": "9e44fb8d4f656322fd680cf305bae1a2",
-    "url": "/portfolio/static/media/Resume.9e44fb8d.pdf"
+    "revision": "cca50cef131aa159d4d9e7fdfe1b55a6",
+    "url": "/portfolio/static/media/Resume.cca50cef.pdf"
   },
   {
     "revision": "ec3dc271053a689c5336649ca523af42",
@@ -38,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0abf0024aa7d86e2b1ad924d9a7603a6",
     "url": "/portfolio/static/media/css3.0abf0024.png"
+  },
+  {
+    "revision": "7673f371693869d8ff10dc53a6b0f27c",
+    "url": "/portfolio/static/media/cypress.7673f371.png"
   },
   {
     "revision": "4f3fba57e59f5ffa746f466d0beb0918",
@@ -50,10 +54,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "637ccbf2b702b94a2cf9a3ff6cdd7dc2",
     "url": "/portfolio/static/media/javascript.637ccbf2.png"
-  },
-  {
-    "revision": "d42672d4d185739d26257ed5c653c740",
-    "url": "/portfolio/static/media/nodejs.d42672d4.png"
   },
   {
     "revision": "6af63dd25151109a1fab8ba32425d59b",
