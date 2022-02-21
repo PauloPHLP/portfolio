@@ -6,12 +6,20 @@ import javascript from './../../../assets/images/javascript.png';
 import typescript from './../../../assets/images/typescript.png';
 import vuejs from './../../../assets/images/vuejs.png';
 import reactjs from './../../../assets/images/reactjs.png';
-import nodejs from './../../../assets/images/nodejs.png';
+import cypress from './../../../assets/images/cypress.png';
 import git from './../../../assets/images/git.png';
 import './Technologies.css';
 
 function Technologies() {
 	const { t } = useTranslation();
+
+	const calculateExperienceTime = (startYear) => {
+		const yearsOfExperience = new Date().getFullYear() - startYear;
+
+		return `${yearsOfExperience} ${
+			yearsOfExperience === 1 ? t('year') : t('years')
+		} ${t('experience')}`;
+	};
 
 	return (
 		<div className="row skill">
@@ -28,16 +36,19 @@ function Technologies() {
 					<div className="columns feature-item">
 						<img className="skill" alt="HTML 5." src={html5} />
 						<h5 className="tech-name">HTML 5</h5>
+						<b>{calculateExperienceTime(2017)}</b>
 						<p>{t('resume_html5')}</p>
 					</div>
 					<div className="columns feature-item">
 						<img className="skill" alt="CSS 3." src={css3} />
 						<h5 className="tech-name">CSS 3</h5>
+						<b>{calculateExperienceTime(2017)}</b>
 						<p>{t('resume_css3')}</p>
 					</div>
 					<div className="columns feature-item">
 						<img className="skill" alt="JavaScript." src={javascript} />
 						<h5 className="tech-name">JavaScript</h5>
+						<b>{calculateExperienceTime(2017)}</b>
 						<p>{t('resume_javascript')}</p>
 					</div>
 					<div className="columns feature-item">
@@ -48,27 +59,32 @@ function Technologies() {
 							style={{ height: '12rem', marginTop: '3rem' }}
 						/>
 						<h5 className="tech-name">TypeScript</h5>
+						<b>{calculateExperienceTime(2018)}</b>
 						<p>{t('resume_typescript')}</p>
 					</div>
 					<div className="columns feature-item">
-						<img className="skill" alt="VueJS" src={vuejs} />
-						<h5 className="tech-name">VueJS</h5>
+						<img className="skill" alt="Vue.js" src={vuejs} />
+						<h5 className="tech-name">Vue.js</h5>
+						<b>{calculateExperienceTime(2020)}</b>
 						<p>{t('resume_vuejs')}</p>
 					</div>
 					<div className="columns feature-item">
-						<img className="skill" alt="ReactJS." src={reactjs} />
-						<h5 className="tech-name">ReactJS</h5>
+						<img className="skill" alt="React.js." src={reactjs} />
+						<h5 className="tech-name">React.js</h5>
+						<b>{calculateExperienceTime(2018)}</b>
 						<p>{t('resume_reactjs')}</p>
 					</div>
 					<div className="columns feature-item">
-						<img className="skill" alt="NodeJS." src={nodejs} />
-						<h5 className="tech-name">NodeJS</h5>
-						<p>{t('resume_nodejs')}</p>
+						<img className="skill" alt="Cypress." src={cypress} />
+						<h5 className="tech-name">Cypress</h5>
+						<b>{calculateExperienceTime(2021)}</b>
+						<p>{t('resume_cypress')}</p>
 					</div>
 
 					<div className="columns feature-item">
 						<img className="skill" alt="Git." src={git} />
 						<h5 className="tech-name">Git</h5>
+						<b>{calculateExperienceTime(2017)}</b>
 						<p>{t('resume_git')}</p>
 					</div>
 				</ul>

@@ -9,7 +9,8 @@
 	"header_title": "I'm Paulo Lima",
 	"header_a": "A",
 	"header_carrer": "Software Engineer",
-	"header_based": "from",
+	"header_based": "based in",
+	"header_country": "Brazil",
 	"header_nowadays": "I currently work as a",
 	"header_works": "who works as a",
 	"header_occupation": "Front-end Engineer",
@@ -17,44 +18,44 @@
 	"header_technology": " as main technology.",
 
 	"about_me": "About me",
-	"about_p1": "I am a musician at heart, with an artistic spirit and passionate about coding. Having finished my high school years, I have decided that development was the thing that I wanted to do for a living. So I started to study System Analysis and Development at college. I had my first job as a developer at Cinq Technologies. At the beginning, I was an intern who worked mainly as a C# developer but, after a few months, I had the opportunity to work in a few PoCs (Proof of Concept) with Vue.js and React.js. Those PoCs made me fall in love with Web Development and JavaScript and also made me be known in the company. Nowadays, I am a Front-end Engineer working mainly with JavaScript, Vue.js and React.js at Swoop Funding.",
+	"about_p1": "I am a musician at heart, with an artistic spirit and passionate about coding. Having finished my high school years, I have decided that development was the thing that I wanted to do for a living. So I started to study System Analysis and Development at college. My first job was as a developer at Cinq Technologies. At the beginning, I was an intern who worked mainly as a C# developer but, after a few months, I had the opportunity to work in a few PoCs (Proof of Concept) with Vue.js and React.js. Those PoCs made me fall in love with Web Development and JavaScript and also made me be known through the company. Nowadays, I am a Front-end Engineer working mainly with JavaScript, Vue.js and React.js at Swoop Funding.",
 	"about_p2": "I am a well-organized person, team-player, passionate about learning and discovery. I am always trying to push my limits to be a better person and professional.",
 	"about_contact": "Contact details",
 	"about_download": "Download resume",
+
+	"resume_bootcamp": "Rocketseat",
+	"resume_bootcamp_title": "Bootcamp GoStack",
+	"resume_bootcamp_date": "April 2020 - October 2020",
+	"resume_bootcamp_details": "Such a great experience. I choose this course to go through the deepest concepts of JavaScript, React.js, React Native and Node.js. I was able to learn and apply more complex thoughs related to these technologies and to this day I can fell all the improvements that I got off of this course.",
 
 	"resume_education": "Education",
 	"resume_university": "Positivo University",
 	"resume_course": "Technology in System Analysis and Development - Undergraduation",
 	"resume_date": "February 2017 - December 2019",
-	"resume_details": "I choose this course because it is a good overview of everything that is need to start on the technology and programming world. It served as a good gateway to the job market and the networking with students and professors was essential. The Systems Analysis and Development technologist analyzes, designs, documents, specifies, tests, deploys and maintains information systems, using project management and program development methods.",
-
-	"resume_bootcamp": "Rocket Seat",
-	"resume_bootcamp_title": "Bootcamp GoStack",
-	"resume_bootcamp_date": "April 2020 - October 2020",
-	"resume_bootcamp_details": "Such a great experience. I choose this course to go through the deepest concepts of JavaScript, React.js, React Native and Node.js. I was able to learn and apply more complex thoughs related to these technologies and to this day I can fell all the improvements that I got off of this course.",
+	"resume_details": "I choose this course because it is a good overview of everything that is need to start in the technology and programming world. It served as a good gateway to the job market and the networking with students and professors was essential. The Systems Analysis and Development technologist professional, designs, documents, specifies, tests, deploys and maintains information systems, using project management and program development methods.",
 
 	"resume_work": "Work",
 
-	"resume_job1": "Technical Support",
-	"resume_job1Date": "July 2017 - August 2017",
-	"resume_job1Details": "I worked providing technical support for professors and students at the university. Performing consultations during classes to solve any possible issue, installing softwares and operating systems on computers and also doing preventive maintenance of machines, notebooks and projectors.",
-
-	"resume_job2": "Development Internship",
-	"resume_job2Date": "May 2018 - September 2019",
-	"resume_job2Details": "My first internship in the software development area. I started working with the C# language in an international project of an orchestration service application with XML. Then I became interested in the web world and created an application to manage welcome screens with Node.js. At the end of the internship program I had the opportunity to create a Vue.js application for PoC purposes. The application used Azure Cognitive Services to recognize the user's face.",
-
-	"resume_job3": "Software Engineer",
-	"resume_job3Date": "October 2019 - April 2021",
-	"resume_job3Details": "The first real job. After having found myself in the web world and JavaScript development during the internship, I was allocated in an international project for a sensors monitoring system as a Junior web developer. The project has React.js for the front-end and an IoT platform called ClearBlade for the back-end development. In June 2020, Cinq Technologies was merged with Dextra Digital after being acquired by Mutant and I was promoted to Full Stack Web Engineer wich is the role that I have now.",
+	"resume_job5": "Front-end Engineer",
+	"resume_job5Date": "July 2021 - Current",
+	"resume_job5Details": "One of the coolest things that happened in my career. Joining Swoop was the realization of a big dream that was to work directly for a company outside my country. Lots of new challenges around here like language, different cultures, time zones, remote work, etc. All this makes me very excited to be working in this excellent company. Here, I work and implement solutions in the majority of Swoop applications, having daily contact with Vue.js and React.js. I also help in the definition of new architectures and in the creation and implementation of Micro Front-end applications. For testing, we use Testing library for unit tests and Cypress for E2E tests.",
 
 	"resume_boticario": "Boticário Group",
 	"resume_job4": "Front-end Developer",
 	"resume_job4Date": "May 2021 - June 2021",
 	"resume_job4Details": "A short but important step in my career, this time focusing only on the Front-end with React.js, I tackled the challenges of building/improving the Direct Sales service screens, helping to define technologies and architecture for the new solution",
 
-	"resume_job5": "Front-end Engineer",
-	"resume_job5Date": "July 2021 - Current",
-	"resume_job5Details": "One of the coolest things that has happened in my career. Joining Swoop was the realization of a great dream which was to work directly for a company outside my country. Many new challenges around here such as language, different cultures, time zones, remote work etc. all of this makes me very excited to be working in this excellent company. Around here, I develop Swoop's Core application, the Marketplace, mainly with Vue.js. We do tests with Jest, Testing Library and Cypress and use Azure as the main deployment platform.",
+	"resume_job3": "Software Engineer",
+	"resume_job3Date": "October 2019 - April 2021",
+	"resume_job3Details": "The first real job. After having found myself in the web world and JavaScript development during the internship, I was allocated in an international project for a sensors monitoring system as a Junior web developer. The project has React.js for the front-end and an IoT platform called ClearBlade for the back-end development. In June 2020, Cinq Technologies was merged with Dextra Digital after being acquired by Mutant and I was promoted to Full Stack Web Engineer.",
+
+	"resume_job2": "Development Intern",
+	"resume_job2Date": "May 2018 - September 2019",
+	"resume_job2Details": "My first internship in the software development area. I started working with the C# language in an international project of an orchestration service application with XML. Then I became interested in the web world and created an application to manage welcome screens with Node.js. At the end of the internship program I had the opportunity to create a Vue.js application for PoC purposes. The application used Azure Cognitive Services to recognize the user's face.",
+
+	"resume_job1": "Technical Support",
+	"resume_job1Date": "July 2017 - August 2017",
+	"resume_job1Details": "I worked providing technical support for professors and students at the university. Performing consultations during classes to solve any possible issues, installing softwares and operating systems on computers and also doing preventive maintenance of machines, notebooks and projectors.",
 
 	"resume_language": "Languages",
 
@@ -66,14 +67,17 @@
 	"resume_tech": "Technologies",
 	"resume_techMessage": "I have had contact with several types of technology but my favorites/most used ones are the following:",
 
+	"year": "year",
+	"years": "years",
+	"experience": "of experience",
+
 	"resume_html5": "HTML 5 is the base for all web projects that you can imagine. The first contact that I had with it was in 2017 and I have been using it since then.",
 	"resume_css3": "The most used style language in the web. The first contact that I had with it was in 2017 and I have been using it since then.",
 	"resume_javascript": "My favorite language. Very powerful and with a very well engaged community. Everyday a new cool framework or library based on JavaScript is released.",
-	"resume_typescript": "A great evolution for JavaScript. This adds stronger typing to JS, which greatly increases the power of the language as well as improves and speeds up the development process.",
-	"resume_nodejs": "A powerful JavaScript runtime environment. I have worked with this technology in a small project in 2019 and had a great experience with its great amount of possibilities.",
+	"resume_typescript": "A great evolution for JavaScript. This adds stronger typing to JavaScript, which greatly increases the power of the language as well as improves and speeds up the development process.",
+	"resume_cypress": "A powerful tool for End to End (E2E) testing. Facilitates deployment automation and ensures code quality.",
 	"resume_reactjs": "Developed by Facebook and the community, ReactJS is one of my favorite JavaScript libraries. It's powerful and very simple to use. It is one of the technologies I work with today and is very much in demand in the job market.",
 	"resume_vuejs": "A modern JavaScript based framework. It gives you an easy way to create user interfaces and single-page applications. It is the main front-end technology that I work nowadays.",
-	"resume_csharp": "The first programming language that I had contact and really worked with. A lot of cool stuff can be done with it and the most used IDE for C# - Visual Studio - is very powerful to use. Unfortunatelly, I do not have as much contact with this technology as before.",
 	"resume_git": "The most used versioning system. The first time that I used Git was in 2018. It is very simple and powerful to use.",
 
 	"portfolio_check": "See the projects that I have worked on",

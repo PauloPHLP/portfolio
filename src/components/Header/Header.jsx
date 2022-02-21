@@ -19,8 +19,9 @@ function Header() {
 						</ReactFitText>
 						<h3>
 							{t('header_a')} <span>{t('header_carrer')}</span>{' '}
-							{t('header_based')} <span>Curitiba</span> {t('header_works')}{' '}
-							<span>{t('header_occupation')}</span> {t('header_using')}{' '}
+							{t('header_based')} <span>{t('header_country')}</span>{' '}
+							{t('header_works')} <span>{t('header_occupation')}</span>{' '}
+							{t('header_using')}{' '}
 							<span>
 								<a
 									href="https://www.javascript.com/"
