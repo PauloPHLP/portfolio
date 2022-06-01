@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c36ea6b5df7a49d8f395fec4fe5a6592",
+    "revision": "e27f59faa9c986f11e84b4498aa7090d",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "29ca27b0cd4b872192e8",
+    "revision": "15b251351dd576e1510f",
     "url": "/portfolio/static/css/main.3d7fcb18.chunk.css"
   },
   {
@@ -16,20 +16,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.a7f866be.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "29ca27b0cd4b872192e8",
-    "url": "/portfolio/static/js/main.49a6b725.chunk.js"
+    "revision": "15b251351dd576e1510f",
+    "url": "/portfolio/static/js/main.1cc747a0.chunk.js"
   },
   {
     "revision": "0d98471f6c3b69ca4251",
     "url": "/portfolio/static/js/runtime-main.44087e9b.js"
   },
   {
-    "revision": "b3a39467de7af213e1141423ce049c4f",
-    "url": "/portfolio/static/media/Curriculo.b3a39467.pdf"
+    "revision": "c7de860587b2b5c3ab79b8203c1115e5",
+    "url": "/portfolio/static/media/Curriculo.c7de8605.pdf"
   },
   {
-    "revision": "cca50cef131aa159d4d9e7fdfe1b55a6",
-    "url": "/portfolio/static/media/Resume.cca50cef.pdf"
+    "revision": "0a316fa30f09912634ae6e808c09e5d6",
+    "url": "/portfolio/static/media/Resume.0a316fa3.pdf"
   },
   {
     "revision": "ec3dc271053a689c5336649ca523af42",
